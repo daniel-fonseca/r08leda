@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-06T08:21:23.961-0300</date>
+  <logger>DANIEL DANTAS FONSECA</logger>
+  <level>FINE</level>
+  <message>File 119110342-DANIEL DANTAS FONSECA.zip was received. It was sent by DANIEL DANTAS FONSECA from IP 192.168.15.3 at 06-05-2021 08*21*23</message>
+</record>
