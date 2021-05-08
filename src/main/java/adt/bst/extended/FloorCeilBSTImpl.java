@@ -44,8 +44,11 @@ public class FloorCeilBSTImpl extends BSTImpl<Integer> implements FloorCeilBST {
 
 	@Override
 	public Integer ceil(Integer[] array, double numero) {
-		//TODO Implemente seu codigo aqui
-		throw new UnsupportedOperationException("Not implemented yet!");
+		for (Integer i : array) {
+			super.insert(i);
+		}
+		
+		return ceil(super.getRoot(), numero);
 	}
 	
 	private Integer ceil(BSTNode<Integer> node, double numero) {
